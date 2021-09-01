@@ -20,7 +20,8 @@ body {
   font-size: 1.6em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Montserrat", "Lato", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Lato", "Raleway", "HelveticaNeue",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -38,10 +39,11 @@ p {
 h1,
 h2,
 h3 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 p {
-  font-family: "Montserrat", "Lato", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Lato", "Raleway", "HelveticaNeue",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
   font-weight: 400;
@@ -88,7 +90,7 @@ ol {
 }
 a {
   color: #727272;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 a,
 a:hover,
@@ -160,21 +162,36 @@ img {
 }
 .site-navigation .main-nav .menu-item-has-children .sub-menu li a {
   display: block;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   white-space: nowrap;
 }
 .site-navigation .main-nav .menu-item-has-children .sub-menu li a:hover {
   margin-left: 2px;
 }
-.site-navigation .main-nav .menu-item-has-children .sub-menu .menu-item-has-children > a:after {
+.site-navigation
+  .main-nav
+  .menu-item-has-children
+  .sub-menu
+  .menu-item-has-children
+  > a:after {
   content: "\ea69";
 }
-.site-navigation .main-nav .menu-item-has-children .sub-menu .menu-item-has-children:hover .sub-menu {
+.site-navigation
+  .main-nav
+  .menu-item-has-children
+  .sub-menu
+  .menu-item-has-children:hover
+  .sub-menu {
   visibility: visible;
   opacity: 1;
   transform: translateX(14rem);
 }
-.site-navigation .main-nav .menu-item-has-children .sub-menu .menu-item-has-children .sub-menu {
+.site-navigation
+  .main-nav
+  .menu-item-has-children
+  .sub-menu
+  .menu-item-has-children
+  .sub-menu {
   top: 0;
   transform: translateX(13rem);
   visibility: hidden;
@@ -264,7 +281,10 @@ img {
   position: absolute;
   top: 1.2rem;
 }
-.mobile-navigation .main-nav .menu-item-has-children .js-toggle-class.ct-icon-rotate-180 {
+.mobile-navigation
+  .main-nav
+  .menu-item-has-children
+  .js-toggle-class.ct-icon-rotate-180 {
   border-left: none;
 }
 .mobile-navigation .main-nav .menu-item-has-children .sub-menu {
@@ -344,8 +364,8 @@ img {
   }
 }
 .ct-spacing {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 .ct-divider {
   width: 50%;
@@ -418,12 +438,12 @@ img {
   font-weight: bold;
 }
 .ct-read-more a {
-  color: #B41E78;
-  margin-left: .5rem;
+  color: #b41e78;
+  margin-left: 0.5rem;
   text-decoration: none;
 }
 .ct-read-more img {
-  max-width: .9rem;
+  max-width: 0.9rem;
 }
 .ct-heading h1 {
   color: #b41e78;
