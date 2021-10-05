@@ -367,6 +367,15 @@ img {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
+
+.footer.ct-spacing {
+  padding-top: 5rem;
+}
+
+.ct-dark-bg .section-ha {
+  padding-bottom: 5rem;
+}
+
 .ct-divider {
   width: 50%;
   display: block;
