@@ -9,6 +9,12 @@ $(document).ready(function(){
         }, 500);
     });
 
+    $(".ct-contact").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#footer").offset().top
+        }, 500);
+    });
+
     /**
      * Mobile Navigation
      */
