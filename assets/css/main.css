@@ -428,7 +428,21 @@ img {
   background-position: center;
   background-size: cover;
 }
-.ct-banner-section .ct-banner-content * {
+
+.ct-arrow-img-home {
+  width: 35px;
+  display: block;
+  margin: 2.8rem auto 0 auto;
+}
+.ct-banner-section-home {
+  padding-top: 20rem;
+  padding-bottom: 5rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.ct-banner-section .ct-banner-content *,
+.ct-banner-section-home .ct-banner-content * {
   color: #ffffff;
 }
 .ct-service-area {
