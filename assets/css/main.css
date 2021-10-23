@@ -544,6 +544,11 @@ footer .ct-social img {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+.ct-about-section img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .ct-about-section .ct-img-icon {
   padding: 1.2rem;
   background-color: #d8d8d8;
